@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+}
+
+/*------ NAVIGATION BAR ------*/
+nav {
+  background-color: rgb(0, 174, 239);
+  padding: 30px 0;
+  text-align: center;
+}
+
+
+/*------ BANNER ------*/
+.banner {
+  background-image: url("../images/banner-mobile.jpg");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*------ SECTIONS ------*/
+section {
+  border-bottom: 1px solid black;
+  width: 300px;
+  margin: 40px auto 0;
+  padding-bottom: 62.6px;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: rgb(55, 78, 162);
+}
+
+p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+}
+ 
+.read-more-btn {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(242, 106, 33);
+  padding: 10px 20px;
+  border-radius: 7px;
+  float: right;
+  border: 1px solid white;
+}
+
+.buy {
+  float: left;
+  background-color: rgb(128, 189, 65);
+}
+
+.buy:hover {
+  background-color: rgb(121, 179, 62);
+  transition: all 0.4s;
+}
+
+.more:hover {
+  background-color: black;
+  color: rgb(242, 106, 33);
+  border: 1px solid rgb(242, 106, 33);
+  transition: all 0.4s;
+}
+
+.text-margin { 
+  margin-bottom: 68px;
+}
+
+.grandmo-text {
+  margin: 0 0 41px;
+}
+
+/*------ SECTION IMAGES ------*/
+.grandmother-img {
+  background-image: url("../images/bestemor.png");
+  background-repeat: no-repeat;
+  height: 193px;
+}
+
+.mother-img {
+  background-image: url("../images/Startpakkefor-mor.png");
+  background-repeat: no-repeat;
+  height: 193px;
+}
+
+.milk-img {
+  background-image: url("../images/terapautisk-melk.png");
+  background-repeat: no-repeat;
+  height: 193px;
+}
+
+.package-img {
+  background-image: url("../images/flykningpakke.png");
+  background-repeat: no-repeat;
+  height: 193px;
+}
+
+/*------ FOOTER ------*/
+footer {
+  margin-top: 50px;
+  background-color: rgb(45, 41, 38);
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px 0;
+}
+
+h3 {
+  margin: 0 0 12px 0;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.contact-nr {
+  font-size: 30px;
+  color: rgb(0, 174, 239);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-info {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.contact-mail {
+  color: rgb(0, 174, 239);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 12px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.social-media {
+  margin: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+section {
+  margin: 40px 0 0;
+  padding: 0 10px 25px;
+  border: 1px solid rgb(119, 119, 122);
+  border-radius: 7px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0;
+}
+
+.banner {
+  background-image: url("../images/banner-ipad.jpg");
+  height: 300px;
+  background-repeat: no-repeat;
+  width: 685.4px;
+  margin: 20px auto 0;
+}
+
+.inner-fot {
+  width: 685.4px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info {
+  margin: 0;
+}
+}
+
+@media screen and (min-width: 1024px) {
+.banner {
+  height: 400px;
+  width: 1024px;
+}
+
+main {
+  width: 1024px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+section {
+  width: 400px;
+  margin: 50px 0px;
+  padding: 25px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.read-more-btn {
+  padding: 17px 35px;
+}
+
+.grandmo-text {
+  margin: 0 0 78px;
+}
+
+.text-margin {
+  margin: 0 0 91.4px;
+}
+
+.package {
+  margin: 0 0 120.2px;
+}
+
+.mother-img {
+  background-image: url("../images/startpakkefor-mor-desktop.png");
+  background-repeat: no-repeat;
+  height: 259px;
+}
+
+.grandmother-img {
+  background-image: url("../images/bestemor-desktop.png");
+  background-repeat: no-repeat;
+  height: 258px;
+}
+
+.milk-img {
+  background-image: url("../images/terapautisk-melk-desktop.png");
+  background-repeat: no-repeat;
+  height: 258px;
+}
+
+.package-img {
+  background-image: url("../images/flykningpakke-desktop.png");
+  background-repeat: no-repeat;
+  height: 258px;
+}
+
+.inner-fot {
+  width: 1024px;
+}
+}
